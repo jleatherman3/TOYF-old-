@@ -1,7 +1,7 @@
 # TheOneYouFeed
 A 3D game made using Unity and assets from free Unity store and other free sources. This was created for learning purposes and not meant for commericial means. See credits page for more information.
 
-TheOneYouFeed is a 3D game where you take the role of a forest animal exploring it's environment as it interacts with other creature types and learns to deal with life choices. 
+In TheOneYouFeed you take the role of a forest animal exploring it's environment as it interacts with other creature types and learns to deal with life choices. 
 You with be confronted with different scenarios as you continue your journey which will affect how your animal develops and ultimately whom they become overall at the end of their journey. 
 
 This game is inspired by an old story told by a Cherokee Indian chief that was teaching his grandson about life.
