@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{58003EEE-5974-5129-56D4-B28A98E73839}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HandlerScript.cs">
+    <Files>
+      <File FileName="Assets/Scripts/HandlerScript.cs" Line="42" Column="44" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TheOneYouFeed" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="HandlerScript.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="07d822d3-0d07-44b0-b1cb-053dea2b19c9" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
