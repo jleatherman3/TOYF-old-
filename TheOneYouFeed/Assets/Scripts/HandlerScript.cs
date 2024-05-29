@@ -39,7 +39,7 @@ public class HandlerScript : MonoBehaviour
     {
         //replace ## with the seconds of the animation
         yield return new WaitForSeconds(3326f);
-        //SceneManager.LoadScene(“Level1”);
+        SceneManager.LoadScene("Level1");
     }
 
     //The key we want to press
@@ -53,6 +53,7 @@ public class HandlerScript : MonoBehaviour
 
     //Prevents the function to be executed more than once
     bool functionTriggered = false;
+    private string Level1;
 
     void FixedUpdate()
     {
@@ -82,7 +83,7 @@ public class HandlerScript : MonoBehaviour
             //Do something here
             //Skip cutscene or similar
             //[...]
-            //SceneManager.LoadScene(“Level1”);
+            SceneManager.LoadScene("Level1");
         }
         else
         {
