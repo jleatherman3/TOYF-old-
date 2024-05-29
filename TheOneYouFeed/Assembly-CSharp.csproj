@@ -96,6 +96,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
     <Compile Include="Assets/ColorSkies/Demo/Scripts/SkyboxChanger.cs" />
+    <Compile Include="Assets/Scripts/GameStart.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
   <ItemGroup>
