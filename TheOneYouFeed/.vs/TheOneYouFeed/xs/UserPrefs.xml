@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{58003EEE-5974-5129-56D4-B28A98E73839}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AudioManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Options.cs">
     <Files>
       <File FileName="Assets/Scripts/GameManager.cs" Line="48" Column="6" />
-      <File FileName="Assets/Scripts/Options.cs" Line="140" Column="57" />
-      <File FileName="Assets/Scripts/AudioManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Options.cs" Line="76" Column="75" />
+      <File FileName="Assets/Scripts/AudioManager.cs" Line="27" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +11,7 @@
           <Node name="TheOneYouFeed" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="AudioManager.cs" selected="True" />
+                <Node name="Options.cs" selected="True" />
               </Node>
             </Node>
           </Node>

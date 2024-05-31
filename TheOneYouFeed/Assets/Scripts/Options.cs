@@ -71,6 +71,9 @@ public class Options : MonoBehaviour
         theMixer.GetFloat("SFXVol", out vol);
         sfxSlider.value = vol;
 
+        mastLabel.text = Mathf.RoundToInt(mastSlider.value + 80).ToString();
+        musicLabel.text = Mathf.RoundToInt(musicSlider.value + 80).ToString();
+        sfxLabel.text = Mathf.RoundToInt(sfxSlider.value + 80).ToString();
     }
 
     // Update is called once per frame
