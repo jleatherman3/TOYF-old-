@@ -16,8 +16,7 @@ public class GameStart : MonoBehaviour
 	IEnumerator Opening()
 	{
 		//replace ## with the seconds of the animation
-		SceneManager.LoadScene("SplashScreen");
-		yield return new WaitForSeconds(10f);
+		yield return new WaitForSeconds(5f);
 		SceneManager.LoadScene("Opening");
 	}
 }

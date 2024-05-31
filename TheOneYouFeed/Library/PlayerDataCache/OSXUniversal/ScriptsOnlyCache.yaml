@@ -1,7 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - GameManager
+    - GameStart
     - HandlerScript
+    - Options
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -16,11 +19,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -33,7 +31,10 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.RawImage
+    - UnityEngine.UI.Toggle
   serializedClasses:
+    Assembly-CSharp:
+    - Res
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -65,10 +66,23 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Object
-    methodName: set_name
+  - assembly: Assembly-CSharp
+    fullTypeName: Options
+    methodName: ResLeft
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: loadlevel
+  - assembly: Assembly-CSharp
+    fullTypeName: Options
+    methodName: ResRight
+  - assembly: Assembly-CSharp
+    fullTypeName: Options
+    methodName: ApplyGraphics
   sceneClasses:
     Assets/Scenes/Level1.unity:
     - Class: 1
@@ -119,31 +133,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1602}
+      Script: {instanceID: 1560}
     - Class: 114
-      Script: {instanceID: 2182}
+      Script: {instanceID: 1604}
     - Class: 114
-      Script: {instanceID: 2308}
+      Script: {instanceID: 2184}
     - Class: 114
-      Script: {instanceID: 2602}
+      Script: {instanceID: 2310}
     - Class: 114
-      Script: {instanceID: 2806}
+      Script: {instanceID: 2386}
     - Class: 114
-      Script: {instanceID: 3096}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 3976}
+      Script: {instanceID: 2810}
     - Class: 114
-      Script: {instanceID: 4084}
+      Script: {instanceID: 3100}
     - Class: 114
-      Script: {instanceID: 4334}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 5038}
+      Script: {instanceID: 3982}
     - Class: 114
-      Script: {instanceID: 5584}
+      Script: {instanceID: 4090}
     - Class: 114
-      Script: {instanceID: 5736}
+      Script: {instanceID: 4340}
     - Class: 114
-      Script: {instanceID: 6052}
+      Script: {instanceID: 4924}
+    - Class: 114
+      Script: {instanceID: 5044}
+    - Class: 114
+      Script: {instanceID: 5742}
+    - Class: 114
+      Script: {instanceID: 6058}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -190,25 +210,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1602}
+      Script: {instanceID: 1560}
     - Class: 114
-      Script: {instanceID: 2308}
+      Script: {instanceID: 1604}
     - Class: 114
-      Script: {instanceID: 2602}
+      Script: {instanceID: 2310}
     - Class: 114
-      Script: {instanceID: 2806}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 3096}
+      Script: {instanceID: 2810}
     - Class: 114
-      Script: {instanceID: 5038}
+      Script: {instanceID: 3100}
     - Class: 114
-      Script: {instanceID: 5584}
+      Script: {instanceID: 5044}
     - Class: 114
-      Script: {instanceID: 5736}
+      Script: {instanceID: 5742}
     - Class: 114
-      Script: {instanceID: 6052}
+      Script: {instanceID: 6058}
     - Class: 114
-      Script: {instanceID: 7848}
+      Script: {instanceID: 6252}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -251,13 +271,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1602}
+      Script: {instanceID: 1560}
     - Class: 114
-      Script: {instanceID: 2308}
+      Script: {instanceID: 1604}
     - Class: 114
-      Script: {instanceID: 2806}
+      Script: {instanceID: 2310}
     - Class: 114
-      Script: {instanceID: 5584}
+      Script: {instanceID: 2810}
+    - Class: 114
+      Script: {instanceID: 6624}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -273,6 +295,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: d41ab9b5ea92474f9c0a6937a0607ce1
@@ -387,6 +415,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 53ddf9add4f30c079a5452201c6abaad
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
   - hash:
       serializedVersion: 2
       Hash: 1321993db8249e1e05e1e0492b2bbdc3
@@ -627,6 +661,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 44ce570a800285ed9f2341f047aa2a7b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Options
   - hash:
       serializedVersion: 2
       Hash: 0a3f328f3ea906bbbcf794f4c27ee59d
@@ -953,16 +993,16 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
+      Hash: d9a7da9f7a7d24ebce5ae5eef3e4fa73
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: OptionsScreen
+  - hash:
+      serializedVersion: 2
       Hash: 35e0b31791c377513b6fc7b9568c50cd
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: Benchmark02
-  - hash:
-      serializedVersion: 2
-      Hash: 540882762544409cc4530e60db00e951
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: 4166580c620718548959a77fa7b43fc1
@@ -1043,6 +1083,12 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: 0a33974c690e635e95e93dddda7083e3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HandlerScript
+  - hash:
+      serializedVersion: 2
       Hash: 7fdd3ee28e9042c3ec83463d0bb3b230
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
@@ -1113,6 +1159,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: c5dad68cf5346f3e7b72277981824935
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameStart
   - hash:
       serializedVersion: 2
       Hash: afb7b65d28d5a7423e69a1b076be0064
@@ -1311,22 +1363,10 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 0a33974c690e635e95e93dddda7083e3
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: HandlerScript
-  - hash:
-      serializedVersion: 2
-      Hash: c5dad68cf5346f3e7b72277981824935
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameStart
   platform: 2
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/SplashScreen.unity
   - Assets/Scenes/Opening.unity
   - Assets/Scenes/Level1.unity
-  playerPath: /Users/jlea/Builds/TOYF/Build1.app
+  playerPath: /Users/jlea/Builds/Build2.app

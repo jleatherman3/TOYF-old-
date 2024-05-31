@@ -38,7 +38,7 @@ public class HandlerScript : MonoBehaviour
     IEnumerator LoadLevel1()
     {
         //replace ## with the seconds of the animation
-        yield return new WaitForSeconds(3326f);
+        yield return new WaitForSeconds(52f);
         SceneManager.LoadScene("Level1");
     }
 
