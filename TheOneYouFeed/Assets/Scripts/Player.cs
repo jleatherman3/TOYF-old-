@@ -14,7 +14,7 @@ public class Player : MonoBehaviour, Controls.IPlayerActions
     void Start()
     {
         dSpeed = speed * Time.deltaTime;
-}
+    }
 
     // Update is called once per frame
     void Update()
