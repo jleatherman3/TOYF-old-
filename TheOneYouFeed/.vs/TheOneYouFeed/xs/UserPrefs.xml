@@ -1,16 +1,30 @@
 ﻿<Properties StartupConfiguration="{58003EEE-5974-5129-56D4-B28A98E73839}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Options.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/InputSystem/InputReader.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameManager.cs" Line="48" Column="6" />
-      <File FileName="Assets/Scripts/Options.cs" Line="76" Column="75" />
-      <File FileName="Assets/Scripts/AudioManager.cs" />
+      <File FileName="Assets/InputSystem/Controls.cs" Line="1" Column="1" />
+      <File FileName="Assets/InputSystem/InputReader.cs" Line="35" Column="47" />
+      <File FileName="Assets/Scripts/Player.cs" Line="25" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TheOneYouFeed" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Bublisher" expanded="True">
+                <Node name="3D Stylized Animated Dogs Kit" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="InputSystem" expanded="True">
+                <Node name="InputReader.cs" selected="True" />
+              </Node>
               <Node name="Scripts" expanded="True" />
+              <Node name="StarterAssets" expanded="True">
+                <Node name="FirstPersonController" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+                <Node name="InputSystem" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -19,7 +33,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="707a4858-12cc-4d11-b3fe-500c8689366b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5452149f-0dd3-4400-99c3-31c574ad3902" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
