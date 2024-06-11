@@ -24,11 +24,24 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies\" -s=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator\" -s=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Cinemachine.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.Burst.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.InputSystem.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.Mathematics.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.Unsafe.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/ScriptAssemblies\" -s=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.burst@1.8.11\" -s=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen\" -s=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator\" -s=\"/Users/jlea/Documents/GitHub/TheOneYouFeed/Untitled/TheOneYouFeed/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Tools/netcorerun/netcorerun",
         "/Applications/Unity/Hub/Editor/2022.3.17f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
         "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/Cinemachine.dll",
+        "Library/ScriptAssemblies/Unity.Burst.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll",
+        "Library/ScriptAssemblies/Unity.Mathematics.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll",
         "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
         "Library/ScriptAssemblies/Unity.Timeline.dll",
         "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
@@ -36,6 +49,11 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
         "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
         "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll",
+        "Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll",
+        "Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll",
+        "Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll",
+        "Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.Unsafe.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
@@ -178,6 +196,21 @@
       "File": "Library/Bee/200b0aESkipCompile-inputdata.json"
     },
     {
+      "File": "Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.Unsafe.dll"
+    },
+    {
       "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
     },
     {
@@ -188,6 +221,45 @@
     },
     {
       "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Cinemachine.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Burst.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Mathematics.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
