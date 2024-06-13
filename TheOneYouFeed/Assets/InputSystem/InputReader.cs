@@ -13,6 +13,12 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions
 
     public Action OnAttackPerformed;
 
+    public Action OnBarkPerformed;
+
+    public Action OnWagPerformed;
+
+    public Action OnSitPerformed;
+
     private Controls controls;
 
     private void OnEnable()
@@ -60,6 +66,27 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions
         if (!context.performed)
             return;
         OnAttackPerformed?.Invoke();
+    }
+
+    public void OnBark(InputAction.CallbackContext context)
+    {
+        if (!context.performed)
+            return;
+        OnBarkPerformed?.Invoke();
+    }
+
+    public void OnWag(InputAction.CallbackContext context)
+    {
+        if (!context.performed)
+            return;
+        OnWagPerformed?.Invoke();
+    }
+
+    public void OnSit(InputAction.CallbackContext context)
+    {
+        if (!context.performed)
+            return;
+        OnSitPerformed?.Invoke();
     }
 
 }

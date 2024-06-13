@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{58003EEE-5974-5129-56D4-B28A98E73839}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/InputSystem/InputReader.cs">
     <Files>
       <File FileName="Assets/InputSystem/Controls.cs" Line="1" Column="1" />
-      <File FileName="Assets/InputSystem/InputReader.cs" Line="35" Column="47" />
+      <File FileName="Assets/InputSystem/InputReader.cs" Line="25" Column="6" />
       <File FileName="Assets/Scripts/Player.cs" Line="17" Column="5" />
+      <File FileName="Library/PackageCache/com.unity.cinemachine@2.9.7/Runtime/Behaviours/CinemachineBrain.cs" Line="493" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,10 +16,10 @@
                   <Node name="Scripts" expanded="True" />
                 </Node>
               </Node>
-              <Node name="InputSystem" expanded="True" />
-              <Node name="Scripts" expanded="True">
-                <Node name="Player.cs" selected="True" />
+              <Node name="InputSystem" expanded="True">
+                <Node name="InputReader.cs" selected="True" />
               </Node>
+              <Node name="Scripts" expanded="True" />
               <Node name="StarterAssets" expanded="True">
                 <Node name="FirstPersonController" expanded="True">
                   <Node name="Scripts" expanded="True" />
@@ -33,7 +34,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5452149f-0dd3-4400-99c3-31c574ad3902" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a497932b-6e4b-4d2a-8748-94897664d5cc" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
