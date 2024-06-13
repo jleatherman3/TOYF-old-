@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/InputSystem/InputReader.cs">
     <Files>
       <File FileName="Assets/InputSystem/Controls.cs" Line="1" Column="1" />
-      <File FileName="Assets/InputSystem/InputReader.cs" Line="25" Column="6" />
+      <File FileName="Assets/InputSystem/InputReader.cs" Line="46" Column="50" />
       <File FileName="Assets/Scripts/Player.cs" Line="17" Column="5" />
       <File FileName="Library/PackageCache/com.unity.cinemachine@2.9.7/Runtime/Behaviours/CinemachineBrain.cs" Line="493" Column="1" />
     </Files>
