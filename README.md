@@ -17,3 +17,6 @@ The grandson ponders this for a moment and then asked, "Grandfather, which wolf 
 The old Cherokee smiled and simply said, "The one you feed".
 
 There are Three endings to this game: Dark Wolf, Light Wolf, and Secret.
+
+
+UPDATE please read: this is an old repo. I had to remake my directory due to my .gitignore not working correctly so it was uploading files that shouldn't be on GitHub causing many issues/conflicts. Please continue to follow progress on repo called TOYF. Thank you for your support as I continue to learn Unity and expore all it has to offer to make amazing games ~ Developer on 6/22/24 at 9:26 am
